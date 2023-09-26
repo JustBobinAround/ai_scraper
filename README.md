@@ -14,3 +14,7 @@ python scraper.py
 python ai_scraper.py
 ```
 
+## Goal
+Rewrite this code into one file. Then attempt to modify the code to work with a
+different platform instead.
+
