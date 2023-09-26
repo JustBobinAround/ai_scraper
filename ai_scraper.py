@@ -3,8 +3,7 @@ import openai
 import requests
 from bs4 import BeautifulSoup
 
-#openai.api_key = os.getenv("OPENAI_API_KEY")
-openai.api_key = "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"
+openai.api_key = os.getenv("OPENAI_API_KEY")
 
 def generate_coverletter(user_prompt):
     system_prompt = "Your task is to create a wholesaling coverletter of a property for a client\
